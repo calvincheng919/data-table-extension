@@ -2,8 +2,8 @@ project_name: "sample-looker"
 
 application: data-table-extension {
   label: "data-table-extension"
-  url: "http://localhost:8080/bundle.js"
-  # file: "bundle.js
+  # url: "http://localhost:8080/bundle.js"
+  file: "apps/bundle.js"
   entitlements: {
     local_storage: yes
     navigation: yes
